@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5330EA5FD0E1AD7F3B3E05 /* Pods_Goliath_National_Bank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8A7808DB65232761C93C9D /* Pods_Goliath_National_Bank.framework */; };
 		43CA4AD526662E7500611FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AD426662E7500611FFF /* AppDelegate.swift */; };
 		43CA4AD726662E7500611FFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AD626662E7500611FFF /* SceneDelegate.swift */; };
-		43CA4AD926662E7500611FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AD826662E7500611FFF /* ViewController.swift */; };
+		43CA4AD926662E7500611FFF /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AD826662E7500611FFF /* ProductsViewController.swift */; };
 		43CA4ADC26662E7500611FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CA4ADA26662E7500611FFF /* Main.storyboard */; };
 		43CA4ADE26662E7A00611FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CA4ADD26662E7A00611FFF /* Assets.xcassets */; };
 		43CA4AE126662E7A00611FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CA4ADF26662E7A00611FFF /* LaunchScreen.storyboard */; };
+		43CA4AEE266634AB00611FFF /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AED266634AB00611FFF /* ProductTableViewCell.swift */; };
+		43CA4AF12666358C00611FFF /* ConversionRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AF02666358C00611FFF /* ConversionRatesViewController.swift */; };
+		43CA4AF32666363A00611FFF /* ProductTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AF22666363A00611FFF /* ProductTransaction.swift */; };
+		43CA4AF52666370700611FFF /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AF42666370700611FFF /* Rate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3880555ABC643E21AF9FEC05 /* Pods-Goliath National Bank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goliath National Bank.release.xcconfig"; path = "Target Support Files/Pods-Goliath National Bank/Pods-Goliath National Bank.release.xcconfig"; sourceTree = "<group>"; };
+		3CA75FDE1E546C2511A45764 /* Pods-Goliath National Bank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Goliath National Bank.debug.xcconfig"; path = "Target Support Files/Pods-Goliath National Bank/Pods-Goliath National Bank.debug.xcconfig"; sourceTree = "<group>"; };
 		43CA4AD126662E7500611FFF /* Goliath National Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goliath National Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CA4AD426662E7500611FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43CA4AD626662E7500611FFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		43CA4AD826662E7500611FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43CA4AD826662E7500611FFF /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		43CA4ADB26662E7500611FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43CA4ADD26662E7A00611FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43CA4AE026662E7A00611FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43CA4AE226662E7A00611FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43CA4AED266634AB00611FFF /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		43CA4AF02666358C00611FFF /* ConversionRatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionRatesViewController.swift; sourceTree = "<group>"; };
+		43CA4AF22666363A00611FFF /* ProductTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTransaction.swift; sourceTree = "<group>"; };
+		43CA4AF42666370700611FFF /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		5E8A7808DB65232761C93C9D /* Pods_Goliath_National_Bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Goliath_National_Bank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5330EA5FD0E1AD7F3B3E05 /* Pods_Goliath_National_Bank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02772413515428E8E30ACC5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E8A7808DB65232761C93C9D /* Pods_Goliath_National_Bank.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B083002B278C8BCFB21DD0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CA75FDE1E546C2511A45764 /* Pods-Goliath National Bank.debug.xcconfig */,
+				3880555ABC643E21AF9FEC05 /* Pods-Goliath National Bank.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		43CA4AC826662E7400611FFF = {
 			isa = PBXGroup;
 			children = (
 				43CA4AD326662E7500611FFF /* Goliath National Bank */,
 				43CA4AD226662E7500611FFF /* Products */,
+				1B083002B278C8BCFB21DD0D /* Pods */,
+				02772413515428E8E30ACC5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,67 @@
 		43CA4AD326662E7500611FFF /* Goliath National Bank */ = {
 			isa = PBXGroup;
 			children = (
+				43CA4AEB2666301700611FFF /* Controllers */,
+				43CA4AEA2666301200611FFF /* Views */,
+				43CA4AE92666300C00611FFF /* Models */,
 				43CA4AD426662E7500611FFF /* AppDelegate.swift */,
 				43CA4AD626662E7500611FFF /* SceneDelegate.swift */,
-				43CA4AD826662E7500611FFF /* ViewController.swift */,
-				43CA4ADA26662E7500611FFF /* Main.storyboard */,
 				43CA4ADD26662E7A00611FFF /* Assets.xcassets */,
 				43CA4ADF26662E7A00611FFF /* LaunchScreen.storyboard */,
 				43CA4AE226662E7A00611FFF /* Info.plist */,
 			);
 			path = "Goliath National Bank";
+			sourceTree = "<group>";
+		};
+		43CA4AE826662FD400611FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43CA4AD826662E7500611FFF /* ProductsViewController.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		43CA4AE92666300C00611FFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43CA4AF22666363A00611FFF /* ProductTransaction.swift */,
+				43CA4AF42666370700611FFF /* Rate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43CA4AEA2666301200611FFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43CA4ADA26662E7500611FFF /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43CA4AEB2666301700611FFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				43CA4AEF2666356A00611FFF /* ConversionRates */,
+				43CA4AEC2666349600611FFF /* ProductTableViewCell */,
+				43CA4AE826662FD400611FFF /* Products */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		43CA4AEC2666349600611FFF /* ProductTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				43CA4AED266634AB00611FFF /* ProductTableViewCell.swift */,
+			);
+			path = ProductTableViewCell;
+			sourceTree = "<group>";
+		};
+		43CA4AEF2666356A00611FFF /* ConversionRates */ = {
+			isa = PBXGroup;
+			children = (
+				43CA4AF02666358C00611FFF /* ConversionRatesViewController.swift */,
+			);
+			path = ConversionRates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43CA4AE526662E7A00611FFF /* Build configuration list for PBXNativeTarget "Goliath National Bank" */;
 			buildPhases = (
+				55C03EA9325024AE4FD5C42B /* [CP] Check Pods Manifest.lock */,
 				43CA4ACD26662E7500611FFF /* Sources */,
 				43CA4ACE26662E7500611FFF /* Frameworks */,
 				43CA4ACF26662E7500611FFF /* Resources */,
+				6A9921567C2192799AD4FD61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +218,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55C03EA9325024AE4FD5C42B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Goliath National Bank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9921567C2192799AD4FD61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goliath National Bank/Pods-Goliath National Bank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Goliath National Bank/Pods-Goliath National Bank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Goliath National Bank/Pods-Goliath National Bank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43CA4ACD26662E7500611FFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43CA4AD926662E7500611FFF /* ViewController.swift in Sources */,
+				43CA4AD926662E7500611FFF /* ProductsViewController.swift in Sources */,
+				43CA4AEE266634AB00611FFF /* ProductTableViewCell.swift in Sources */,
+				43CA4AF32666363A00611FFF /* ProductTransaction.swift in Sources */,
+				43CA4AF52666370700611FFF /* Rate.swift in Sources */,
+				43CA4AF12666358C00611FFF /* ConversionRatesViewController.swift in Sources */,
 				43CA4AD526662E7500611FFF /* AppDelegate.swift in Sources */,
 				43CA4AD726662E7500611FFF /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +415,7 @@
 		};
 		43CA4AE626662E7A00611FFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA75FDE1E546C2511A45764 /* Pods-Goliath National Bank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +435,7 @@
 		};
 		43CA4AE726662E7A00611FFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3880555ABC643E21AF9FEC05 /* Pods-Goliath National Bank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

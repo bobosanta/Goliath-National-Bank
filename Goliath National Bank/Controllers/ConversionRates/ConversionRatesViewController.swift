@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ConversionRatesViewController.swift
 //  Goliath National Bank
 //
 //  Created by Bogdan on 01.06.2021.
@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ConversionRatesViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
 }
-
