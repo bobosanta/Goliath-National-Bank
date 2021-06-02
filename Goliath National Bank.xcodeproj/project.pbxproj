@@ -18,6 +18,13 @@
 		43CA4AF12666358C00611FFF /* ConversionRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AF02666358C00611FFF /* ConversionRatesViewController.swift */; };
 		43CA4AF32666363A00611FFF /* ProductTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AF22666363A00611FFF /* ProductTransaction.swift */; };
 		43CA4AF52666370700611FFF /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AF42666370700611FFF /* Rate.swift */; };
+		43CA4AF826663F4100611FFF /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AF726663F4100611FFF /* ApiClient.swift */; };
+		43CA4AFA266641CA00611FFF /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AF9266641CA00611FFF /* Factory.swift */; };
+		43CA4AFC266643EE00611FFF /* ApiClientTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AFB266643EE00611FFF /* ApiClientTransactions.swift */; };
+		43CA4AFE26664B7800611FFF /* APIClientRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4AFD26664B7800611FFF /* APIClientRates.swift */; };
+		43CA4B012666642900611FFF /* ConversionRatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4B002666642900611FFF /* ConversionRatesTableViewCell.swift */; };
+		43CA4B0426666BF300611FFF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4B0326666BF300611FFF /* BaseViewController.swift */; };
+		43CA4B062667E61400611FFF /* RuntimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CA4B052667E61400611FFF /* RuntimeError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,13 @@
 		43CA4AF02666358C00611FFF /* ConversionRatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionRatesViewController.swift; sourceTree = "<group>"; };
 		43CA4AF22666363A00611FFF /* ProductTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTransaction.swift; sourceTree = "<group>"; };
 		43CA4AF42666370700611FFF /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		43CA4AF726663F4100611FFF /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		43CA4AF9266641CA00611FFF /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		43CA4AFB266643EE00611FFF /* ApiClientTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTransactions.swift; sourceTree = "<group>"; };
+		43CA4AFD26664B7800611FFF /* APIClientRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientRates.swift; sourceTree = "<group>"; };
+		43CA4B002666642900611FFF /* ConversionRatesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionRatesTableViewCell.swift; sourceTree = "<group>"; };
+		43CA4B0326666BF300611FFF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		43CA4B052667E61400611FFF /* RuntimeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeError.swift; sourceTree = "<group>"; };
 		5E8A7808DB65232761C93C9D /* Pods_Goliath_National_Bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Goliath_National_Bank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,6 +102,8 @@
 		43CA4AD326662E7500611FFF /* Goliath National Bank */ = {
 			isa = PBXGroup;
 			children = (
+				43CA4B0226666BE300611FFF /* Helpers */,
+				43CA4AF626663F0300611FFF /* ApiClient */,
 				43CA4AEB2666301700611FFF /* Controllers */,
 				43CA4AEA2666301200611FFF /* Views */,
 				43CA4AE92666300C00611FFF /* Models */,
@@ -128,6 +144,7 @@
 		43CA4AEB2666301700611FFF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				43CA4AFF2666641100611FFF /* ConversionRatesTableViewCell */,
 				43CA4AEF2666356A00611FFF /* ConversionRates */,
 				43CA4AEC2666349600611FFF /* ProductTableViewCell */,
 				43CA4AE826662FD400611FFF /* Products */,
@@ -149,6 +166,34 @@
 				43CA4AF02666358C00611FFF /* ConversionRatesViewController.swift */,
 			);
 			path = ConversionRates;
+			sourceTree = "<group>";
+		};
+		43CA4AF626663F0300611FFF /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				43CA4AF726663F4100611FFF /* ApiClient.swift */,
+				43CA4AF9266641CA00611FFF /* Factory.swift */,
+				43CA4AFB266643EE00611FFF /* ApiClientTransactions.swift */,
+				43CA4AFD26664B7800611FFF /* APIClientRates.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		43CA4AFF2666641100611FFF /* ConversionRatesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				43CA4B002666642900611FFF /* ConversionRatesTableViewCell.swift */,
+			);
+			path = ConversionRatesTableViewCell;
+			sourceTree = "<group>";
+		};
+		43CA4B0226666BE300611FFF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				43CA4B0326666BF300611FFF /* BaseViewController.swift */,
+				43CA4B052667E61400611FFF /* RuntimeError.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,11 +311,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				43CA4AD926662E7500611FFF /* ProductsViewController.swift in Sources */,
+				43CA4B012666642900611FFF /* ConversionRatesTableViewCell.swift in Sources */,
 				43CA4AEE266634AB00611FFF /* ProductTableViewCell.swift in Sources */,
 				43CA4AF32666363A00611FFF /* ProductTransaction.swift in Sources */,
+				43CA4B0426666BF300611FFF /* BaseViewController.swift in Sources */,
+				43CA4AF826663F4100611FFF /* ApiClient.swift in Sources */,
 				43CA4AF52666370700611FFF /* Rate.swift in Sources */,
+				43CA4AFA266641CA00611FFF /* Factory.swift in Sources */,
+				43CA4AFE26664B7800611FFF /* APIClientRates.swift in Sources */,
+				43CA4B062667E61400611FFF /* RuntimeError.swift in Sources */,
 				43CA4AF12666358C00611FFF /* ConversionRatesViewController.swift in Sources */,
 				43CA4AD526662E7500611FFF /* AppDelegate.swift in Sources */,
+				43CA4AFC266643EE00611FFF /* ApiClientTransactions.swift in Sources */,
 				43CA4AD726662E7500611FFF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
