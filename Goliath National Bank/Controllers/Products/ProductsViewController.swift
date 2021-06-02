@@ -98,7 +98,7 @@ class ProductsViewController: BaseViewController {
     }
 
 
-//    func x(fromValue: String, toValue: String, price: Decimal, visited: [String]) -> Decimal {
+//    func recursiveSolution(fromValue: String, toValue: String, price: Decimal, visited: [String]) -> Decimal {
 //        if fromValue == toValue {
 //            return price
 //        } else if let fromDict = ratesDictionary[fromValue] {
@@ -110,9 +110,9 @@ class ProductsViewController: BaseViewController {
 //                        var vis = visited
 //                        vis.append(k)
 //
-//                        let ppp = convertPrice(fromValue: k, toValue: toValue, price: v, visited: vis)
-//                        if ppp != Decimal.zero {
-//                            return price * ppp
+//                        let convertedPrice = convertPrice(fromValue: k, toValue: toValue, price: v, visited: vis)
+//                        if convertedPrice != Decimal.zero {
+//                            return price * convertedPrice
 //                        }
 //                    }
 //                }
